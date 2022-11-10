@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    overflow-x: hidden;  
+    color: black;
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+#head{
+    max-width: auto;
+    margin: auto;
+}
+
+#banner-head{
+    background: cornflowerblue;
+    border-bottom: 2px solid white;
+    padding: 0 0 2% 0;
+}
+
+.icon-head{
+    position: absolute;
+    text-align: right;
+    padding-left: auto;
+    padding-top: auto;
+}
+
+.title_banner{
+    position: relative;
+    font-size: 30px;
+    text-indent: 6%;
+    padding-top: 2%;
+    left: 1%;
+    color: white;
+    text-align-last: left;
+}
+
+.row{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.title_instrucciones{
+    position: absolute;
+    font-size: 30px;
+    padding-top: auto;
+    top: 15%;
+    left: 25%;
+    color: white;
+    text-align-last: left;
+}
+
+.texto_01{
+    position: absolute;
+    font-size: 25px;
+    padding-top: auto;
+    top: 22%;
+    left: 25%;
+    color: white;
+    text-align-last: left;
+}
+
+.title_03{
+    font-size: 25px;
+    padding-top: 2%;
+    text-align-last: left;
+}
+
+.texto_02{
+    font-size: 20px;
+    text-indent: 5px;
+    padding-top: 1%;
+    text-align-last: left;
+}
+
+.texto_03{
+    font-size: 20px;
+    text-indent: 5px;
+    text-align-last: left;
+}
+
+.title_04{
+    font-size: 20px;
+    padding-top: 1%;
+    text-align-last: left;
+}
+
+.mostrar_01{
+    width: 350px;
+    height: 150px;
+    text-align-last: left;
+}
+
+.texto_04{
+    font-size: 20px;
+    padding-top: 1%;
+    text-align-last: left;
+}
+
+h4{
+    color: white;
+}
+
+.responder{
+    font-size: 20px;
+    text-indent: 5px;
+    padding-top: 1%;
+    text-align-last: left;
+}
+
+h5{
+    color: white;
+}
+
+.title_guia{
+    font-size: 30px;
+    text-indent: 120px;
+    padding-top: 1%;
+    text-align-last: left;
+}
+
+.texto_05{
+    font-size: 25px;
+    padding-top: 1%;
+    text-align-last: left;
+}
+
+.texto_06{
+    color: white;
+    font-size: 20px;
+    padding-top: 1%;
+    text-align-last: left;
+}

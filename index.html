@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, scrolling=no">
+    <title>Maquina de Turing</title>
+    <!--STYLE-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+<body>
+    <!--BANNER-->
+    <section id="head">
+        <div id="banner-head">
+            <header>
+                <div class="header-inner">
+                    <section class="beginning">
+                        <div class="icon-head">
+                            <img src="/means/prueba-de-turing.png">
+                        </div>
+                        <h1 class="title_banner"> Simulador Maquina de Turing</h1>
+                    </section>
+                </div>
+            </header>
+        </div>
+    </section>
+    <!--Instrucciones-->
+    <section>
+        <div class="elementos">
+            <div class="row">
+                <div class="card">
+                    <img src="/means/instrucciones.png">
+                    <h2 class="title_instrucciones"> ¿Como se usa..?</h2>
+                    <p class="texto_01">Debes de subir un archivo de texto, el cual debe contener 
+la definición formal de una Maquina de Turing cualquiera. Una vez cargada esta definición, el programa te permitira 
+el ingreso de una serie de caracteres en la cinta infinita (finita  en  este  caso). 
+Se deberá validar que los caracteres ingresados a la cinta estén definidos tanto en el conjunto de símbolos de la cinta como de la 
+máquina.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Programa-->
+    <section>
+        <div class="MT_Main">
+            <div class="formulario">
+                <form name="entrada" class="maquinaTuring_01">
+                    <h3 class="title_03">Maquina de Turing</h3>
+                    <p class="texto_02">Cargar un archivo: <input id="archivo" type="file" accept=".txt"/></p>
+                    <br>
+                    <button type="button" id="lee">Cargar..!</button>
+                    <br>
+                    <h4 class="responder" id="listo"></h4>
+                    <br>
+                    <p class="texto_03">Ingresar Cadena: <input id="cadena" type="text"/></p>
+                    <br>
+                    <button type="button" id="validar">Probar Cadena</button>
+                    <br>
+                    <h3 class="title_04">Resultados..!</h3>
+                    <textarea class="mostrar_01" id="resultado"></textarea>
+                    <br>
+                    <p class="texto_04">Estado: <input id="respuesta" type="text"/></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="guia">
+        <h5 class="title_guia">Muestra del documeto .txt que puede utilizar</h2>
+        <p class="texto_05">A continuacion le mostramos el formato a utilizar.
+        </p>
+        <dl class="texto_06">
+<dt>Estados(estado1, estado2, estado3, estado4)</dt>
+<dt>Inicial(estado1)</dt>
+<dt>Ha(estado3)</dt>
+<dt>He(estado1, estado2, estado3)</dt>
+<dt>Alfabeto(a, b, c)</dt>
+<dt>MT (estado1, a) = (estado2, x, R)</dt>
+<dt>MT (estado2, a) = (estado2, x, R)</dt>
+<dt>MT (estado2, b) = (estado3, x, R)</dt>
+<dt>MT (estado3, c) = (estado3, x, R)</dt>
+<dt>MT (estado1,  ) = (estado3, x, R)</dt>
+        </dl>
+    </section>
+    <script src="/script/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>
